@@ -65,3 +65,38 @@ Click on 'Copy' to copy your token and save it somewhere, we'll need it for late
 
 <a href="#"><img width="100%" height="auto" src="https://i.postimg.cc/HsksZN6g/Screenshot-from-2022-04-03-13-42-19.jpg" height="175px"/></a>
 - Now our CryptoBotNp is live into server
+
+
+
+# Step 3: Create Project Folder
+Now let's make this bot work! Create a new project with the following terminal commands:
+
+    mkdir discordBot
+    cd discordBot
+    npm init
+
+
+# Step 4: Install packages
+Now we need to install the npm packages for this project. Run this command below:
+- `npm install discord.js axios dotenv`
+
+The packages we have installed are:
+
+- discord.js: a Node.js module to allow easy interactions with the Discord API.
+- axios: allows making HTTP Promises easily with Node.js.
+- dotenv: allows loading variables from process.env in Node apps
+
+
+# Step 5: index.js
+This will create an index.js file, where our bot functions will be written at.
+
+If you see the bot installed in your server, it is currently offline. The first thing we need to do to code our discord bot is to create a discord bot client and log our bot in.
+
+Import the discord.js package and create a new client like so:
+
+
+
+Remember the token we copied in Step 1? Create an .env file and store the token there.
+
+In your .env file:
+- CLIENT_TOKEN=`'your token here'`
