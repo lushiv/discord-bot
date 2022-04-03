@@ -1,12 +1,5 @@
-# Make a [CryptoBotNp](#) Discord Bot Using Node js:-
-## What is CryptoBotNp:-
-## How to Use:-
-## Technical Documention:
-
-
+# Make a Discord Bot Using Node js:-
 let's learn how to make a simple Discord bot with Node.js. This tutorial aims at beginners with zero knowledge on how to make a Discord bot.
-
-
 ## Prerequisites
 * Code editor (i.e. VS Code)
 * Basic knowledge in JavaScript
